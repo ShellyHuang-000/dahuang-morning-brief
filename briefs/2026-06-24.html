@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta name="robots" content="noindex,nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>每日晨间简报 2026-06-24</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --text: #142033;
+      --muted: #5f6c80;
+      --line: #dbe3ef;
+      --blue: #2563eb;
+      --amber: #d97706;
+      --purple: #7c3aed;
+      --green: #059669;
+      --slate: #475569;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.65;
+    }
+    .wrap {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 42px;
+    }
+    header {
+      padding: 24px 0 18px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(26px, 4vw, 42px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+    .time { color: var(--muted); font-size: 14px; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 24px;
+    }
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 34px;
+      padding: 6px 12px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      display: inline-block;
+      flex: 0 0 auto;
+    }
+    .blue { background: var(--blue); }
+    .amber { background: var(--amber); }
+    .purple { background: var(--purple); }
+    .green { background: var(--green); }
+    .slate { background: var(--slate); }
+    section { margin: 28px 0; }
+    h2 {
+      font-size: 22px;
+      margin: 0 0 14px;
+      line-height: 1.3;
+    }
+    h3 {
+      font-size: 17px;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left-width: 5px;
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin: 12px 0;
+      box-shadow: 0 1px 2px rgba(20, 32, 51, 0.04);
+    }
+    .card.news { border-left-color: var(--blue); }
+    .card.china { border-left-color: var(--amber); }
+    .card.people { border-left-color: var(--purple); }
+    .card.social { border-left-color: var(--green); }
+    .card.read { border-left-color: var(--slate); }
+    ul { margin: 8px 0 0 20px; padding: 0; }
+    li { margin: 4px 0; }
+    a { color: #1d4ed8; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--line);
+      padding: 10px 8px;
+    }
+    th { color: #334155; background: #f8fafc; }
+    tr:last-child td { border-bottom: 0; }
+    .label {
+      display: inline-block;
+      color: var(--muted);
+      font-weight: 600;
+      margin-right: 4px;
+    }
+    .read-list {
+      display: grid;
+      gap: 12px;
+    }
+    @media (max-width: 720px) {
+      .wrap { width: min(100% - 22px, 1040px); padding-top: 16px; }
+      header { padding-top: 18px; }
+      nav { gap: 8px; }
+      nav a { flex: 1 1 calc(50% - 8px); justify-content: flex-start; }
+      .card { padding: 14px 13px; }
+      table, thead, tbody, th, td, tr { display: block; }
+      thead { display: none; }
+      tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
+      td {
+        border-bottom: 0;
+        padding: 5px 0;
+      }
+      td::before {
+        content: attr(data-label);
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  
+/* public-mobile-polish */
+.public-ai-note{margin:0 0 14px;color:#8a94a6;font-size:12px;line-height:1.65}
+.card:not(.table-card){overflow:hidden;padding:0 17px 15px}
+.card:not(.table-card) h3{margin:0 -17px 12px;padding:13px 17px 12px;font-size:19px;font-weight:800;line-height:1.42;color:var(--ink);border-bottom:1px solid var(--line)}
+.news h3{background:#eef6ff}
+.social h3{background:#eefaf5}
+th{white-space:nowrap}
+@media(max-width:700px){
+  body{font-size:16px;line-height:1.72}
+  .wrap{max-width:100%;padding:20px 10px 42px}
+  h1{font-size:26px;line-height:1.22}
+  h2{font-size:22px;margin-bottom:12px}
+  section{scroll-margin-top:12px;margin-bottom:30px}
+  .public-ai-note{margin-bottom:13px;font-size:12px;line-height:1.6}
+  .toc{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible;margin:18px 0 28px;padding:9px;border-radius:12px;background:#fff}
+  .toc a{min-height:40px;justify-content:flex-start;white-space:normal;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fbfcff;font-size:15px;line-height:1.25}
+  .toc a:last-child:nth-child(odd){grid-column:1/-1}
+  .card{margin:10px 0;padding:14px 13px;border-radius:10px}
+  .card h3{font-size:18px;line-height:1.45}
+  .card:not(.table-card){overflow:hidden;padding:0 13px 14px}
+  .card:not(.table-card) h3{margin:0 -13px 12px;padding:12px 13px 11px;font-size:19px;font-weight:800;line-height:1.42;color:var(--ink);border-bottom:1px solid var(--line)}
+  .news h3{background:#eef6ff}
+  .social h3{background:#eefaf5}
+  .read{padding:14px 13px}
+  .read li{margin:0;padding:10px 0;border-bottom:1px solid var(--line)}
+  .read li:last-child{border-bottom:0}
+  .read li a{font-weight:800}
+  .social-grid{grid-template-columns:1fr}
+  .table-card{padding:12px;overflow:visible}
+  .table-wrap{overflow:visible}
+  table{display:block;width:100%;min-width:0;background:transparent;font-size:15px}
+  thead{display:none}
+  tbody{display:grid;gap:10px}
+  tr{display:block;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:#fff;padding:0;box-shadow:0 3px 10px #2032550b}
+  td{display:block;min-width:0;margin:0 12px;padding:8px 0;border-bottom:1px solid var(--line);line-height:1.65;overflow-wrap:anywhere;word-break:break-word}
+  td:last-child{border-bottom:0}
+  td::before{display:block;margin-bottom:2px;color:var(--muted);font-size:12px;font-weight:750}
+  td:first-child{margin:0;padding:12px 12px 11px;border-bottom:1px solid var(--line);font-size:19px;font-weight:800;line-height:1.42;color:var(--ink)}
+  td:first-child::before{margin-bottom:4px;font-size:12px}
+  .policy td:first-child{background:#fff8eb}
+  .policy td:first-child::before{color:#9a650c}
+  .person td:first-child{background:#f8f4ff}
+  .person td:first-child::before{color:#6844a3}
+  .policy td:nth-child(1)::before{content:"政策/产业线"}
+  .policy td:nth-child(2)::before{content:"最新信号"}
+  .policy td:nth-child(3)::before{content:"判断"}
+  .policy td:nth-child(4)::before{content:"来源"}
+  .person td:nth-child(1)::before{content:"人物"}
+  .person td:nth-child(2)::before{content:"今日信号"}
+  .person td:nth-child(3)::before{content:"来源"}
+}
+</style>
+<link rel="canonical" href="/briefs/2026-06-24.html"></head>
+<body>
+  <div class="wrap">
+    <p class="public-ai-note">本页由 AI 辅助整理，信息可能有误，仅供交流，不构成投资、法律或其他专业建议。请以原始来源为准。</p><header>
+      <h1>每日晨间简报 2026-06-24</h1>
+      <div class="time">生成时间：2026-06-24 08:01 CST</div>
+    </header>
+
+    <nav aria-label="目录">
+      <a href="#finance"><span class="dot blue"></span>财经时政</a>
+      <a href="#china"><span class="dot amber"></span>中国产业政策</a>
+      <a href="#people"><span class="dot purple"></span>关键人物</a>
+      <a href="#social"><span class="dot green"></span>社媒热点</a>
+      <a href="#reads"><span class="dot slate"></span>深读推荐</a>
+    </nav>
+
+    <section id="finance">
+      <h2>重大财经时政新闻</h2>
+      <article class="card news">
+        <h3>伊朗核检查与霍尔木兹变量仍是油价/航运尾部风险</h3>
+        <ul>
+          <li><span class="label">发生了什么</span>AP 报道，伊朗议会推进暂停与 IAEA 合作的法案；此前以色列和美国对伊朗核设施的打击使核查透明度与地区航运风险继续升温。</li>
+          <li><span class="label">为什么重要</span>短期市场会把“停火是否稳定”与“核设施是否仍可核查”分开定价。油价和航运保险的风险溢价未必随军事行动降温而同步消失。</li>
+          <li><span class="label">来源</span><a href="https://apnews.com/article/iran-israel-us-nuclear-iaea-7058d85408b71244ef858cb6f0c6fd3d">AP：IAEA</a>、<a href="https://apnews.com/article/strait-hormuz-ships-crossing-iran-us-e6039e5f3962ba001ed6b7abb74219b0">AP：Hormuz</a></li>
+        </ul>
+      </article>
+      <article class="card news">
+        <h3>美股 AI 交易从“只涨叙事”转向“估值与兑现压力”</h3>
+        <ul>
+          <li><span class="label">发生了什么</span>AP 汇总称，Palantir、AppLovin、Robinhood 等前期高涨股票从高点明显回撤，AI 相关交易仍热，但更依赖盈利兑现和增长可见度。</li>
+          <li><span class="label">为什么重要</span>资本市场开始区分“算力/模型/应用”不同环节的兑现周期。对科技股配置，叙事弹性正在让位于现金流和订单质量。</li>
+          <li><span class="label">来源</span><a href="https://apnews.com/article/ai-stocks-palantir-applovin-robinhood-95c18799e79dcd5de1aafad54075cfd4">AP：AI stocks</a></li>
+        </ul>
+      </article>
+      <article class="card news">
+        <h3>美国用核电贷款支持数据中心用电，AI 基建进入能源政策通道</h3>
+        <ul>
+          <li><span class="label">发生了什么</span>AP 报道，美国能源部向 Constellation 提供 175 亿美元联邦贷款担保，用于核电资产与电力项目，背景是 AI 数据中心推高电力需求。</li>
+          <li><span class="label">为什么重要</span>AI 竞争正在从芯片和模型扩展到电力、输电、核电重启与政府信用支持。算力成本未来会越来越受能源监管和融资条件影响。</li>
+          <li><span class="label">来源</span><a href="https://apnews.com/article/constellation-nuclear-energy-loan-guarantee-trump-administration-de0ffce4a51606b52fa55564d05aeaf8">AP：Constellation loan guarantee</a></li>
+        </ul>
+      </article>
+      <article class="card news">
+        <h3>中国 5 月经济数据确认“消费偏弱、工业仍撑”的结构</h3>
+        <ul>
+          <li><span class="label">发生了什么</span>国家统计局 5 月数据显示，社会消费品零售总额同比增长 1.4%，规模以上工业增加值同比增长 4.5%；房地产开发投资和销售仍承压。</li>
+          <li><span class="label">为什么重要</span>政策更可能继续落在就业、以旧换新、设备更新、财政支出节奏和民营投资修复上。</li>
+          <li><span class="label">来源</span><a href="https://www.stats.gov.cn/sj/zxfb/202606/t20260615_1956236.html">统计局：零售</a>、<a href="https://www.stats.gov.cn/sj/zxfb/202606/t20260615_1956235.html">统计局：工业</a>、<a href="https://www.stats.gov.cn/sj/zxfb/202606/t20260615_1956238.html">统计局：地产</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="china">
+      <h2>中国产业政策</h2>
+      <div class="card china">
+        <table>
+          <thead>
+            <tr><th>政策/产业线</th><th>最新信号</th><th>判断</th><th>来源</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="政策/产业线">消费与就业</td>
+              <td data-label="最新信号">央行等部门继续用金融工具支持就业场景，统计局零售数据偏弱。</td>
+              <td data-label="判断">消费刺激不会只靠泛化补贴，更可能绑定就业、家庭服务、消费金融和以旧换新。</td>
+              <td data-label="来源"><a href="https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/5819924/index.html">央行</a>、<a href="https://www.stats.gov.cn/sj/zxfb/202606/t20260615_1956236.html">统计局</a></td>
+            </tr>
+            <tr>
+              <td data-label="政策/产业线">先进制造/民营经济</td>
+              <td data-label="最新信号">发改委围绕“六张网”、民营企业参与重大工程和“十五五”规划释放信号。</td>
+              <td data-label="判断">民企政策重点从融资纾困转向参与新型基础设施和供应链补短板，关注订单而非口号。</td>
+              <td data-label="来源"><a href="https://www.ndrc.gov.cn/fggz/fgzy/jjsjgl/202606/t20260619_1398780.html">发改委</a></td>
+            </tr>
+            <tr>
+              <td data-label="政策/产业线">资本市场/RMB 产品</td>
+              <td data-label="最新信号">央行、证监会、香港监管机构联合推进香港离岸国债期货，支持离岸人民币风险管理。</td>
+              <td data-label="判断">资本市场开放的重点是“可交易、可对冲”的人民币资产工具，而不是单纯增加上市融资。</td>
+              <td data-label="来源"><a href="https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/5818728/index.html">央行</a></td>
+            </tr>
+            <tr>
+              <td data-label="政策/产业线">地产与财政支出</td>
+              <td data-label="最新信号">1-5 月房地产开发投资和销售仍弱，地方财政与土地收入压力继续影响基建节奏。</td>
+              <td data-label="判断">地产线仍是拖累项，稳增长更依赖专项债、城市更新、保障性住房和存量项目消化。</td>
+              <td data-label="来源"><a href="https://www.stats.gov.cn/sj/zxfb/202606/t20260615_1956238.html">统计局</a></td>
+            </tr>
+            <tr>
+              <td data-label="政策/产业线">设备更新/节能降碳</td>
+              <td data-label="最新信号">设备更新、节能降碳和工业改造继续出现在部委政策组合中。</td>
+              <td data-label="判断">工业投资的政策弹性大于纯消费弹性，重点看补贴落地、地方项目清单和企业订单验证。</td>
+              <td data-label="来源"><a href="https://www.ndrc.gov.cn/xwdt/xwfb/">发改委</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="people">
+      <h2>关键人物动态</h2>
+      <div class="card people">
+        <table>
+          <thead>
+            <tr><th>人物</th><th>今日信号</th><th>影响</th><th>来源</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="人物">Jensen Huang</td>
+              <td data-label="今日信号">公开谈到 AI 正在重塑社交和工作规范。</td>
+              <td data-label="影响">英伟达叙事从“卖芯片”继续外溢到 AI 组织方式和企业流程重构，强化算力需求的长期解释框架。</td>
+              <td data-label="来源"><a href="https://apnews.com/article/jensen-huang-ai-nvidia-10a0c1a6ca0767c9037139430a7d930e">AP</a></td>
+            </tr>
+            <tr>
+              <td data-label="人物">Mark Zuckerberg</td>
+              <td data-label="今日信号">Meta 智能眼镜新品与平台分发继续被 Techmeme 聚合讨论。</td>
+              <td data-label="影响">Meta 的 AI 硬件叙事正在从 VR 转向更轻量、可日常佩戴的入口，竞争点是相机、语音助手和生态绑定。</td>
+              <td data-label="来源"><a href="https://www.techmeme.com/">Techmeme</a></td>
+            </tr>
+            <tr>
+              <td data-label="人物">Dario Amodei</td>
+              <td data-label="今日信号">Anthropic 相关产品与 Claude Code 生态继续在开发者社区发酵。</td>
+              <td data-label="影响">AI 编程从“演示能力”进入工作流锁定阶段，开发者付费、权限治理和可靠性成为下一轮分歧。</td>
+              <td data-label="来源"><a href="https://news.ycombinator.com/">HN</a>、<a href="https://www.techmeme.com/">Techmeme</a></td>
+            </tr>
+            <tr>
+              <td data-label="人物">Donald Trump</td>
+              <td data-label="今日信号">伊朗行动、战争权力和能源安全继续占据美国政治聚合站头部议题。</td>
+              <td data-label="影响">市场要把“军事胜利叙事”和“制度约束/能源风险”分开看，后者决定政策不确定性折价。</td>
+              <td data-label="来源"><a href="https://www.memeorandum.com/">Memeorandum</a>、<a href="https://apnews.com/">AP</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="social">
+      <h2>社媒热点</h2>
+      <article class="card social">
+        <h3>AI 编程工具进入“可用但要管控”阶段</h3>
+        <ul>
+          <li><span class="label">触发点</span>Claude Code、Cursor、OpenAI/Anthropic 开发者工具持续成为 Techmeme、HN 和 Product Hunt 的高频话题。</li>
+          <li><span class="label">舆论分歧</span>支持者认为生产率提升已经进入真实项目；怀疑者强调代码审查、权限、上下文污染和维护成本。</li>
+          <li><span class="label">为什么重要</span>企业采购 AI 编程工具时，决策变量会从“模型聪不聪明”转到“是否能进入权限、审计、CI 和知识库体系”。</li>
+          <li><span class="label">可信度</span>中高。工具发布和社区讨论真实可见，但生产率收益仍需公司级数据验证。</li>
+          <li><span class="label">入口链接</span><a href="https://www.techmeme.com/">Techmeme</a>、<a href="https://news.ycombinator.com/">Hacker News</a>、<a href="https://www.producthunt.com/">Product Hunt</a></li>
+        </ul>
+      </article>
+      <article class="card social">
+        <h3>AI 硬件入口从头显回到眼镜</h3>
+        <ul>
+          <li><span class="label">触发点</span>Meta 智能眼镜新品、AI 相机和语音入口被科技聚合站集中讨论。</li>
+          <li><span class="label">舆论分歧</span>一派认为轻量眼镜终于接近消费场景；另一派质疑隐私、续航、价格和杀手应用不足。</li>
+          <li><span class="label">为什么重要</span>如果眼镜成为 AI 助手的日常入口，手机平台、广告分发和边缘推理都会被重新定价。</li>
+          <li><span class="label">可信度</span>中。新品和公司动作可证实，但需求规模仍是市场假设。</li>
+          <li><span class="label">入口链接</span><a href="https://www.techmeme.com/">Techmeme</a></li>
+        </ul>
+      </article>
+      <article class="card social">
+        <h3>伊朗停火后的社媒分歧：降温交易还是风险未消</h3>
+        <ul>
+          <li><span class="label">触发点</span>Memeorandum、AP 与市场讨论都围绕伊朗核检查、霍尔木兹航运和美国战争权力展开。</li>
+          <li><span class="label">舆论分歧</span>市场乐观派押注冲突降级；政策风险派认为核查中断和国内政治约束会延长不确定性。</li>
+          <li><span class="label">为什么重要</span>能源价格、美元避险和国防/航运板块的波动，不取决于单日停火消息，而取决于核查与航道是否恢复可预期。</li>
+          <li><span class="label">可信度</span>中高。事实由 AP 等报道支撑，社媒对后续路径的判断仍是观点。</li>
+          <li><span class="label">入口链接</span><a href="https://www.memeorandum.com/">Memeorandum</a>、<a href="https://apnews.com/">AP</a></li>
+        </ul>
+      </article>
+      <article class="card social">
+        <h3>中国宏观讨论转向“政策抓手是否足够具体”</h3>
+        <ul>
+          <li><span class="label">触发点</span>统计局 5 月数据与发改委、央行政策信号叠加，社区讨论聚焦消费、地产、就业和民营投资。</li>
+          <li><span class="label">舆论分歧</span>乐观派看工业韧性和政策工具箱；悲观派看地产拖累、青年就业和收入预期。</li>
+          <li><span class="label">为什么重要</span>这条叙事会影响外资对中国资产的判断：不是看单个数据，而是看政策是否能形成订单和现金流。</li>
+          <li><span class="label">可信度</span>中高。数据来自一手发布，社媒判断需要与后续财政和信贷数据交叉验证。</li>
+          <li><span class="label">入口链接</span><a href="https://www.stats.gov.cn/sj/zxfb/">国家统计局</a>、<a href="https://www.ndrc.gov.cn/xwdt/xwfb/">发改委</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="reads">
+      <h2>深读推荐</h2>
+      <div class="read-list">
+        <article class="card read">
+          <h3><a href="https://apnews.com/article/jensen-huang-ai-nvidia-10a0c1a6ca0767c9037139430a7d930e">AP：Jensen Huang says AI is creating new norms around socializing</a></h3>
+          <p>推荐理由：这篇不是单纯人物访谈，而是解释英伟达如何把 AI 需求叙事从芯片扩展到工作方式和组织行为。</p>
+        </article>
+        <article class="card read">
+          <h3><a href="https://apnews.com/article/constellation-nuclear-energy-loan-guarantee-trump-administration-de0ffce4a51606b52fa55564d05aeaf8">AP：Constellation gets $17.5B federal loan guarantee</a></h3>
+          <p>推荐理由：AI 基建竞争已经进入能源和政府信用层面，适合判断数据中心、核电和电网投资的中期逻辑。</p>
+        </article>
+        <article class="card read">
+          <h3><a href="https://www.stats.gov.cn/sj/zxfb/">国家统计局：5月份国民经济运行情况</a></h3>
+          <p>推荐理由：中国政策判断要从消费、工业、地产和就业组合读，而不是只看一个宏观标签。</p>
+        </article>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

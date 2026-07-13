@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta name="robots" content="noindex,nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>每日晨间简报 2026-06-26</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --text: #18202a;
+      --muted: #687386;
+      --line: #dfe6ef;
+      --news: #2f6fec;
+      --china: #d97706;
+      --people: #8b5cf6;
+      --social: #16a34a;
+      --read: #53657d;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.62;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 52px; }
+    header { margin-bottom: 18px; }
+    h1 { margin: 0 0 6px; font-size: 30px; line-height: 1.2; letter-spacing: 0; }
+    .time { color: var(--muted); font-size: 14px; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0 26px;
+      padding: 12px;
+      background: rgba(255,255,255,.78);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: #253044;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 6px 8px;
+      border-radius: 6px;
+    }
+    nav a:hover { background: #edf2f8; }
+    .dot { width: 9px; height: 9px; border-radius: 99px; display: inline-block; }
+    .news-dot { background: var(--news); }
+    .china-dot { background: var(--china); }
+    .people-dot { background: var(--people); }
+    .social-dot { background: var(--social); }
+    .read-dot { background: var(--read); }
+    section { margin: 24px 0; }
+    h2 { font-size: 22px; margin: 0 0 12px; line-height: 1.3; }
+    h3 { font-size: 17px; margin: 0 0 8px; line-height: 1.35; }
+    p { margin: 7px 0; }
+    a { color: #174ea6; overflow-wrap: anywhere; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--news);
+      border-radius: 8px;
+      padding: 15px 16px;
+      margin: 12px 0;
+      box-shadow: 0 1px 2px rgba(26, 36, 52, .04);
+    }
+    .card.news { border-left-color: var(--news); }
+    .card.china { border-left-color: var(--china); }
+    .card.people { border-left-color: var(--people); }
+    .card.social { border-left-color: var(--social); }
+    .card.read { border-left-color: var(--read); }
+    .label { color: var(--muted); font-size: 13px; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); padding: 10px 8px; }
+    th { color: #334155; background: #f8fafc; font-weight: 700; }
+    tr:last-child td { border-bottom: 0; }
+    .note { color: var(--muted); font-size: 13px; }
+    .source { margin-top: 8px; font-size: 13px; color: var(--muted); }
+    @media (max-width: 720px) {
+      .wrap { padding: 22px 13px 40px; }
+      h1 { font-size: 24px; }
+      h2 { font-size: 20px; }
+      .card { padding: 13px; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tr { border-bottom: 1px solid var(--line); padding: 8px 0; }
+      td { border: 0; padding: 5px 0; }
+      td::before { content: attr(data-label); display: block; color: var(--muted); font-size: 12px; font-weight: 700; }
+    }
+  
+/* public-mobile-polish */
+.public-ai-note{margin:0 0 14px;color:#8a94a6;font-size:12px;line-height:1.65}
+.card:not(.table-card){overflow:hidden;padding:0 17px 15px}
+.card:not(.table-card) h3{margin:0 -17px 12px;padding:13px 17px 12px;font-size:19px;font-weight:800;line-height:1.42;color:var(--ink);border-bottom:1px solid var(--line)}
+.news h3{background:#eef6ff}
+.social h3{background:#eefaf5}
+th{white-space:nowrap}
+@media(max-width:700px){
+  body{font-size:16px;line-height:1.72}
+  .wrap{max-width:100%;padding:20px 10px 42px}
+  h1{font-size:26px;line-height:1.22}
+  h2{font-size:22px;margin-bottom:12px}
+  section{scroll-margin-top:12px;margin-bottom:30px}
+  .public-ai-note{margin-bottom:13px;font-size:12px;line-height:1.6}
+  .toc{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible;margin:18px 0 28px;padding:9px;border-radius:12px;background:#fff}
+  .toc a{min-height:40px;justify-content:flex-start;white-space:normal;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fbfcff;font-size:15px;line-height:1.25}
+  .toc a:last-child:nth-child(odd){grid-column:1/-1}
+  .card{margin:10px 0;padding:14px 13px;border-radius:10px}
+  .card h3{font-size:18px;line-height:1.45}
+  .card:not(.table-card){overflow:hidden;padding:0 13px 14px}
+  .card:not(.table-card) h3{margin:0 -13px 12px;padding:12px 13px 11px;font-size:19px;font-weight:800;line-height:1.42;color:var(--ink);border-bottom:1px solid var(--line)}
+  .news h3{background:#eef6ff}
+  .social h3{background:#eefaf5}
+  .read{padding:14px 13px}
+  .read li{margin:0;padding:10px 0;border-bottom:1px solid var(--line)}
+  .read li:last-child{border-bottom:0}
+  .read li a{font-weight:800}
+  .social-grid{grid-template-columns:1fr}
+  .table-card{padding:12px;overflow:visible}
+  .table-wrap{overflow:visible}
+  table{display:block;width:100%;min-width:0;background:transparent;font-size:15px}
+  thead{display:none}
+  tbody{display:grid;gap:10px}
+  tr{display:block;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:#fff;padding:0;box-shadow:0 3px 10px #2032550b}
+  td{display:block;min-width:0;margin:0 12px;padding:8px 0;border-bottom:1px solid var(--line);line-height:1.65;overflow-wrap:anywhere;word-break:break-word}
+  td:last-child{border-bottom:0}
+  td::before{display:block;margin-bottom:2px;color:var(--muted);font-size:12px;font-weight:750}
+  td:first-child{margin:0;padding:12px 12px 11px;border-bottom:1px solid var(--line);font-size:19px;font-weight:800;line-height:1.42;color:var(--ink)}
+  td:first-child::before{margin-bottom:4px;font-size:12px}
+  .policy td:first-child{background:#fff8eb}
+  .policy td:first-child::before{color:#9a650c}
+  .person td:first-child{background:#f8f4ff}
+  .person td:first-child::before{color:#6844a3}
+  .policy td:nth-child(1)::before{content:"政策/产业线"}
+  .policy td:nth-child(2)::before{content:"最新信号"}
+  .policy td:nth-child(3)::before{content:"判断"}
+  .policy td:nth-child(4)::before{content:"来源"}
+  .person td:nth-child(1)::before{content:"人物"}
+  .person td:nth-child(2)::before{content:"今日信号"}
+  .person td:nth-child(3)::before{content:"来源"}
+}
+</style>
+<link rel="canonical" href="/briefs/2026-06-26.html"></head>
+<body>
+  <div class="wrap">
+    <p class="public-ai-note">本页由 AI 辅助整理，信息可能有误，仅供交流，不构成投资、法律或其他专业建议。请以原始来源为准。</p><header>
+      <h1>每日晨间简报 2026-06-26</h1>
+      <div class="time">生成时间：2026-06-26 10:36 CST</div>
+    </header>
+
+    <nav aria-label="目录">
+      <a href="#news"><span class="dot news-dot"></span>财经时政</a>
+      <a href="#china"><span class="dot china-dot"></span>中国产业政策</a>
+      <a href="#people"><span class="dot people-dot"></span>关键人物</a>
+      <a href="#social"><span class="dot social-dot"></span>社媒热点</a>
+      <a href="#reads"><span class="dot read-dot"></span>深读推荐</a>
+    </nav>
+
+    <section id="news">
+      <h2>财经时政</h2>
+      <p class="note">事实与社媒分开：本节只纳入已由主流媒体或一手入口证实的信息。</p>
+      <div class="card news">
+        <h3>美国政治风险从“选举规则”扩散到立法日程</h3>
+        <p><span class="label">发生了什么：</span>Memeorandum 聚合显示，美国政治焦点集中在特朗普推动共和党结束众议院议程封锁、邮件投票限制行政令遭法院阻挡，以及伊朗战争授权表决被特朗普压力重新塑形。</p>
+        <p><span class="label">为什么重要：</span>预算、住房、选举规则和战争授权同时被“忠诚测试”绑定，政策可预测性和美国国会执行力成为新的折价变量。</p>
+        <div class="source">来源：<a href="https://www.memeorandum.com/">Memeorandum</a>、<a href="https://apnews.com/">AP 入口</a></div>
+      </div>
+      <div class="card news">
+        <h3>Apple 因 AI 带来的存储成本压力上调部分硬件价格</h3>
+        <p><span class="label">发生了什么：</span>Reuters 报道 Apple 上调 MacBook、iPad 等部分产品价格，背景是 AI 训练与推理需求挤压内存/存储芯片供给。</p>
+        <p><span class="label">为什么重要：</span>AI 成本开始外溢到消费电子价格；如果存储价格继续走高，终端硬件毛利、换机周期和消费电子需求都会受影响。</p>
+        <div class="source">来源：<a href="https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/">Reuters</a>、<a href="https://news.ycombinator.com/">Hacker News</a></div>
+      </div>
+      <div class="card news">
+        <h3>IBM 发布 sub-1nm 芯片技术，半导体叙事从先进制程转向 3D 架构</h3>
+        <p><span class="label">发生了什么：</span>IBM 称其推出 0.7nm / 7 埃量级的 sub-1nm 芯片技术，采用 nanostack 3D 晶体管架构。</p>
+        <p><span class="label">为什么重要：</span>这是研发路线图信号，不是短期量产事件；但它强化了材料、封装、EUV、SRAM 密度和能效的重要性。</p>
+        <div class="source">来源：<a href="https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">IBM Newsroom</a>、<a href="https://news.ycombinator.com/">Hacker News</a></div>
+      </div>
+      <div class="card news">
+        <h3>中国 5 月数据延续“生产强、消费弱、地产拖累”的政策压力</h3>
+        <p><span class="label">发生了什么：</span>国家统计局数据显示，5 月规模以上工业增加值同比增长 4.5%，社零同比增长 1.4%，1-5 月房地产市场数据仍是政策观察重点。</p>
+        <p><span class="label">为什么重要：</span>稳增长抓手会更偏向设备更新、服务消费、就业与财政项目，而不是单纯等待地产自然修复。</p>
+        <div class="source">来源：<a href="https://www.stats.gov.cn/sj/zxfb/">国家统计局</a></div>
+      </div>
+      <div class="card news">
+        <h3>中国财政收支显示地产财政仍是地方约束</h3>
+        <p><span class="label">发生了什么：</span>财政部数据显示，1-5 月全国一般公共预算收入同比增长 4%，支出同比增长 0.8%；政府性基金预算收入同比下降 19.2%，土地出让收入同比下降 28.7%。</p>
+        <p><span class="label">为什么重要：</span>财政收入表面改善，但土地财政继续收缩，地方稳投资和城市更新需要更多中央资金、专项债或政策性金融承接。</p>
+        <div class="source">来源：<a href="https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm">财政部</a></div>
+      </div>
+    </section>
+
+    <section id="china">
+      <h2>中国产业政策</h2>
+      <div class="card china">
+        <table>
+          <thead><tr><th>政策/产业线</th><th>最新信号</th><th>判断</th><th>来源</th></tr></thead>
+          <tbody>
+            <tr><td data-label="政策/产业线">新型能源体系 / 新能源</td><td data-label="最新信号">发改委 6 月 25 日发布《新型能源体系建设“十五五”规划》通知。</td><td data-label="判断">新能源从装机扩张进入系统能力阶段，后续看储能、电网调度、绿电消纳和电力市场机制。</td><td data-label="来源"><a href="https://www.ndrc.gov.cn/xwdt/">发改委</a></td></tr>
+            <tr><td data-label="政策/产业线">节能降碳 / 设备更新</td><td data-label="最新信号">重点行业节能降碳改造攻坚三年行动发布，“两新”仍在地方成效总结中出现。</td><td data-label="判断">设备更新正在和节能降碳合流，财政支付节奏决定订单确认速度。</td><td data-label="来源"><a href="https://www.ndrc.gov.cn/xwdt/">发改委</a></td></tr>
+            <tr><td data-label="政策/产业线">消费 / 内需</td><td data-label="最新信号">5 月社零同比增长 1.4%，弱于工业生产修复。</td><td data-label="判断">消费政策需要更具体的耐用品更新、服务消费和收入预期工具。</td><td data-label="来源"><a href="https://www.stats.gov.cn/sj/zxfb/">国家统计局</a></td></tr>
+            <tr><td data-label="政策/产业线">财政 / 地产链</td><td data-label="最新信号">1-5 月土地出让收入同比下降 28.7%，政府性基金收入同比下降 19.2%。</td><td data-label="判断">地产仍通过土地财政约束地方投资能力，城市更新和基建订单要看中央资金与专项债。</td><td data-label="来源"><a href="https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm">财政部</a></td></tr>
+            <tr><td data-label="政策/产业线">就业 / 金融支持</td><td data-label="最新信号">央行等发布加强金融支持妇女就业创业文件；发改委推进就业优先“十五五”规划。</td><td data-label="判断">就业政策从总量稳岗转向重点群体和创业融资；青年就业仍看服务业岗位吸纳。</td><td data-label="来源"><a href="https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html">央行</a>、<a href="https://www.ndrc.gov.cn/xwdt/">发改委</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="people">
+      <h2>关键人物</h2>
+      <div class="card people">
+        <table>
+          <thead><tr><th>人物</th><th>今日信号</th><th>来源</th></tr></thead>
+          <tbody>
+            <tr><td data-label="人物">Donald Trump</td><td data-label="今日信号">今日叙事集中在对共和党国会议程、邮件投票规则和伊朗战争授权的直接施压；影响从竞选话术转向制度执行与政策不确定性。</td><td data-label="来源"><a href="https://www.memeorandum.com/">Memeorandum</a>、<a href="https://apnews.com/">AP</a></td></tr>
+            <tr><td data-label="人物">Tim Cook</td><td data-label="今日信号">Apple 因 AI 推高存储成本而上调部分硬件价格，使“AI 成本谁买单”从云厂商传导到消费者和终端硬件厂商。</td><td data-label="来源"><a href="https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/">Reuters</a></td></tr>
+            <tr><td data-label="人物">Sam Altman</td><td data-label="今日信号">OpenAI-Broadcom Jalapeño 之后，AI 公司自控推理成本的叙事继续发酵；短期看 Broadcom，长期看模型公司是否像 Apple 一样垂直整合。</td><td data-label="来源"><a href="https://www.techmeme.com/">Techmeme</a>、<a href="https://www.techradar.com/pro/broadcom-and-openai-debut-jalapeno-intelligence-processor-plot-an-apple-like-move-to-build-the-full-stack">TechRadar</a></td></tr>
+            <tr><td data-label="人物">Jensen Huang</td><td data-label="今日信号">暂无新的高价值个人动作；但 Apple 存储涨价、OpenAI 自研推理芯片和 IBM sub-1nm 都在提醒市场，AI 硬件瓶颈正从 GPU 单点扩散。</td><td data-label="来源"><a href="https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">IBM</a>、<a href="https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/">Reuters</a></td></tr>
+            <tr><td data-label="人物">Mark Zuckerberg / Satya Nadella / Dario Amodei / Demis Hassabis</td><td data-label="今日信号">暂无高价值、可由可靠来源交叉确认的今日新增信号。</td><td data-label="来源">暂无</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="social">
+      <h2>社媒热点</h2>
+      <div class="card social">
+        <h3>“AI 成本开始由消费者买单”</h3>
+        <p><span class="label">触发点：</span>Reuters 关于 Apple 上调 MacBook、iPad 价格的报道在 Hacker News 引发高热讨论。</p>
+        <p><span class="label">舆论分歧：</span>一派认为这是 AI 基建挤占 DRAM/NAND 供给的必然结果；另一派认为 Apple 借供应链涨价维护毛利，终端 AI 价值尚未说服用户。</p>
+        <p><span class="label">为什么重要：</span>如果 AI 推高内存、存储和电力成本，消费电子、云服务订阅和企业 SaaS 价格都可能进入再定价周期。</p>
+        <p><span class="label">可信度：</span>涨价报道属媒体事实；关于 Apple 定价动机和用户接受度属于社区观点。</p>
+        <div class="source">入口：<a href="https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/">Reuters</a>、<a href="https://news.ycombinator.com/">Hacker News</a></div>
+      </div>
+      <div class="card social">
+        <h3>“AI agent 产品从演示走向工作流嵌入”</h3>
+        <p><span class="label">触发点：</span>Product Hunt 今日榜单中，BrowserAct、Zaro、Brain²、Polygraph、Papermark Agents 等产品集中指向浏览器自动化、企业知识、跨仓库上下文和交易流程。</p>
+        <p><span class="label">舆论分歧：</span>支持者认为 agent 正从玩具进入真实工作流；怀疑者担心可靠性、权限、审计和成本仍限制部署。</p>
+        <p><span class="label">为什么重要：</span>AI 应用竞争的核心正在从模型能力展示转向谁能拿到工作流入口和企业上下文。</p>
+        <p><span class="label">可信度：</span>产品热度和入口真实；商业转化和留存需要后续验证。</p>
+        <div class="source">入口：<a href="https://www.producthunt.com/">Product Hunt</a></div>
+      </div>
+      <div class="card social">
+        <h3>“互联网隐私进入证件化时代”</h3>
+        <p><span class="label">触发点：</span>Hacker News 高热讨论《The 'papers, please' era of the internet will decimate your privacy》，围绕年龄验证、身份验证和在线隐私展开。</p>
+        <p><span class="label">舆论分歧：</span>支持者认为平台必须证明用户年龄以满足儿童保护和监管要求；反对者认为这会把匿名浏览变成默认身份审查。</p>
+        <p><span class="label">为什么重要：</span>影响社交平台、内容平台、支付、广告和 AI 应用的注册/合规成本，也会改变全球产品的地区化运营。</p>
+        <p><span class="label">可信度：</span>监管趋势真实；具体政策效果和隐私风险是观点与推演。</p>
+        <div class="source">入口：<a href="https://news.ycombinator.com/">Hacker News</a>、<a href="https://expression.fire.org/">FIRE</a></div>
+      </div>
+      <div class="card social">
+        <h3>“美国政治议程被忠诚测试劫持”</h3>
+        <p><span class="label">触发点：</span>Memeorandum 今日美国政治头条集中在 Trump 对众议院共和党、邮件投票行政令、伊朗战争授权和住房法案的施压。</p>
+        <p><span class="label">舆论分歧：</span>支持者把这看作统一执政党、加速议程；批评者认为这会使政策过程更情绪化，并把制度议题变成个人服从测试。</p>
+        <p><span class="label">为什么重要：</span>如果预算、住房、选举和战争授权都进入交易式政治，市场需要为美国政策连续性和制度摩擦计入更高风险溢价。</p>
+        <p><span class="label">可信度：</span>相关政治事件有主流媒体报道；“忠诚测试”属于舆论框架。</p>
+        <div class="source">入口：<a href="https://www.memeorandum.com/">Memeorandum</a>、<a href="https://apnews.com/">AP</a></div>
+      </div>
+    </section>
+
+    <section id="reads">
+      <h2>深读推荐</h2>
+      <div class="card read">
+        <h3><a href="https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">IBM Debuts World’s First Sub-1 Nanometer Chip Technology</a></h3>
+        <p>推荐理由：不是短线交易新闻，但能解释 AI 算力竞争为什么会转向 3D 晶体管、SRAM 密度和能效路线。</p>
+      </div>
+      <div class="card read">
+        <h3><a href="https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm">2026年1-5月财政收支情况</a></h3>
+        <p>推荐理由：土地出让收入和政府性基金数据比口号更能解释地方投资、地产链和财政发力空间。</p>
+      </div>
+      <div class="card read">
+        <h3><a href="https://www.producthunt.com/">Product Hunt 今日榜单</a></h3>
+        <p>推荐理由：今天的榜单很集中地显示 AI agent 创业正在押注“浏览器 + 企业上下文 + 工作流入口”。</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
